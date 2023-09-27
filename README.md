@@ -19,6 +19,9 @@ To calculate the total exposure we assume that dealers are long calls and short 
 * https://datashop.cboe.com/cboe-all-access-api
 * https://www.livevol.com/apis/technical-reference/?m=examples
 
+## the similar project in R 
+* https://rpubs.com/tmoran/GammaExposure
+
 ## Examples
 
 Input: 
