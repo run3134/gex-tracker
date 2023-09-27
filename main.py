@@ -33,6 +33,7 @@ def scrape_data(ticker):
         data = pd.DataFrame.from_dict(json.load(f))
     else:
         # Request data and save it to file
+        # webui: https://www.cboe.com/delayed_quotes/tsla/quote_table
         try:
             data = requests.get(
                 f"https://cdn.cboe.com/api/global/delayed_quotes/options/_{ticker}.json"
